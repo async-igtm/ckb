@@ -1,0 +1,316 @@
+@import url('nav.css');
+@media screen and (max-width: 1528px) {
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        overflow: hidden;
+        height: 636px;
+    }
+
+    #container {
+        border: 0px black solid;
+        width: 100%;
+        height: 100%;
+
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+
+    #methode {
+        border: 0px black solid;
+        width: 15%;
+    }
+
+    #action {
+        width: 100%;
+        height: 100%;
+        border: 0px black solid;
+        border-right: none;
+        border-top: none;
+        border-bottom: none;
+        /* box-shadow: 0px 0px 1px 0px black inset; */
+    }
+
+    #methode div {
+        width: 100%;
+        height: 50px;
+        border-right: none !important;
+        border-left: none !important;
+        border-top: none !important;
+        margin-top: 10px;
+        text-align: center;
+        line-height: 50px;
+        line-height: 50px;
+    }
+
+    #action {
+        box-shadow: 0px 0px 1px 0px black inset;
+        padding-top: 5%;
+        padding-left: 5%;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 90%;
+    }
+
+    /* UPI */
+    #action #jvbmn {
+        width: 100%;
+        height: 40px;
+        border: 0px black solid;
+        line-height: 40px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #xngcv {
+        height: 70px;
+        border: 0px black solid;
+    }
+
+    #xngcv input {
+        margin-top: 6px;
+        width: 50%;
+        border: 1px black solid;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+    }
+
+    #suggested-upi {
+        border: 0px black solid;
+        height: 50px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 2%;
+        margin-top: -10px;
+    }
+
+    #suggested-upi div {
+        border: 1px black solid;
+        height: 30px;
+        padding-left: 2%;
+        padding-right: 2%;
+        line-height: 30px;
+        border-radius: 50px;
+    }
+
+    #fvsxkk {
+        border: 1px black solid;
+        width: 25%;
+        margin-top: 20px;
+    }
+
+    .btn {
+        border-radius: 0px;
+    }
+
+    .form-group input {
+        border-radius: 0px !important;
+        outline: none;
+    }
+
+    .form-group input:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+
+    #xdbh {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0px black solid;
+        gap: 5%;
+    }
+
+    #xdbh div {
+        width: 100%;
+    }
+
+    #xdbh input {
+        width: 100%;
+        border: 1px black solid;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    #xngcvjybbh {
+        width: 50%;
+    }
+
+    #xngcvjybbh input {
+        margin-top: 40px;
+        border: 1px black solid;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+
+    #jgsem {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .banc-cont {
+        border: 1px rgb(168, 168, 168) solid;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        width: 90%;
+        height: 50px;
+        gap: 12%;
+        padding-left: 1%;
+    }
+
+    .centaring {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .banc-cont #img--container {
+        border: 0px black solid;
+        width: 80%;
+        display: flex;
+        gap: 10%;
+        align-items: center;
+    }
+
+    #img {
+        height: 32px;
+        width: 32px;
+        border: 0px black solid;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #bank-populer {
+        border: 0px black solid;
+        width: 30%;
+        margin-top: 20px;
+        box-shadow: 0px 0px 2px 0px black;
+        border-radius: 10px;
+        padding-left: 3%;
+        padding-top: 5px;
+        padding-bottom: 20px !important;
+    }
+
+    #img--txt {
+        border: 0px black solid;
+        font-size: 16px;
+    }
+
+    .banc-cont input {
+        width: 17px;
+        height: 17px;
+    }
+
+    .idj {
+        margin-top: 18px;
+    }
+
+    #walet {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #v {
+        font-size: 30px;
+        font-weight: bold;
+        color: red;
+    }
+
+    #ibh {
+        border: 0px black solid;
+        width: 600px;
+        height: 600px;
+        margin-left: 74%;
+        margin-top: -300px;
+    }
+
+    #ibgh {
+        border: 0px black solid;
+        width: 550px;
+        height: 500px;
+        margin-top: -170px;
+        margin-left: 55%;
+    }
+
+    #fnbf {
+        border: 0px black solid;
+        width: 580px;
+        height: 580px;
+
+        margin-top: -570px;
+        margin-left: 59%;
+        animation: pngani 360s linear infinite;
+    }
+
+    @keyframes pngani {
+
+        0% {}
+
+        100% {
+            transform: rotate(360deg);
+        }
+
+    }
+
+    #drgfnj {
+        border: 0px black solid;
+        width: 770px;
+        height: 770px;
+    }
+
+    #kvjbf {
+        width: 400px;
+        height: 400px;
+        margin-top: -490px;
+        margin-left: 67%;
+        animation: pngani-rev 360s linear infinite;
+    }
+
+    @keyframes pngani-rev {
+
+        0% {}
+
+        100% {
+            transform: rotate(-360deg);
+        }
+    }
+
+    #img-slider {
+        width: 195px;
+        height: auto;
+        border: 0px black solid;
+        margin-left: 75.5%;
+        margin-top: -296px;
+
+        animation: vissible 10s linear infinite;
+    }
+
+    @keyframes vissible {
+
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
+
+}

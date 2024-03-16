@@ -1,0 +1,307 @@
+@media screen and (max-width: 1528px) {
+    .header-txt {
+
+        border: 0px black solid;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 10%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .header-txt span {
+        font-size: 30px;
+    }
+
+    nav {
+        border: 0px black solid;
+        margin-left: 0px !important;
+        display: flex;
+        justify-content: start;
+        margin-left: 10px;
+        background-color: #EAEAEA;
+    }
+
+    .navbar-brand {
+        width: 230.14px;
+        border: 0px black solid;
+        background-color: transparent !important;
+    }
+
+    .collapse {
+        border: 0px rgb(153, 153, 153) solid;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        border: 0px rgb(0, 0, 0) solid;
+        justify-content: end;
+    }
+
+    .nav-link svg {
+        border: 0px black solid;
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .d-flex {
+        border: 1px rgb(216, 132, 14) solid;
+    }
+
+    .d-flex .form-control {
+        border: none;
+        border-radius: 0px;
+    }
+
+    .d-flex .form-control:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .d-flex .btn {
+        background-color: #fff;
+        border-radius: 0px;
+    }
+
+    .dropdown-menu {
+        width: 30px !important;
+        margin-left: -80px !important;
+        outline: none !important;
+        background-color: transparent !important;
+        height: auto !important;
+        border: none !important;
+    }
+
+    .dropdown-menu li {
+        margin: 2px !important;
+        border: 1px rgb(199, 194, 194) solid !important;
+        background-color: #ffffff !important;
+        box-shadow: 0px 0px .2px 0px gray;
+        border-radius: 5px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .header-txt {
+
+        border: 0px black solid;
+        height: 65px;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding-left: 10%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+    }
+
+    .header-txt span {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    nav {
+        border: 0px black solid;
+        margin-left: 0px !important;
+        display: flex;
+        justify-content: start;
+        margin-left: 10px;
+        /* background-color: #EAEAEA; */
+        background-color: #F5F5DC;
+    }
+
+    .navbar-brand {
+        width: 230.14px;
+        border: 0px black solid;
+        background-color: transparent !important;
+    }
+
+    .collapse {
+        border: 0px rgb(153, 153, 153) solid;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        border: 0px rgb(0, 0, 0) solid;
+        justify-content: end;
+    }
+
+    .nav-link {
+        border: 0px black solid;
+        color: black;
+
+    }
+
+    .nav-link svg {
+        border: 0px black solid;
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .d-flex {
+        border: 1px rgb(216, 132, 14) solid;
+    }
+
+    .d-flex .form-control {
+        border: none;
+        border-radius: 0px;
+    }
+
+    .d-flex .form-control:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    .d-flex .btn {
+        background-color: #fff;
+        border-radius: 0px;
+    }
+
+    .dropdown-menu {
+        width: 30px !important;
+        margin-left: -80px !important;
+        outline: none !important;
+        background-color: transparent !important;
+        height: auto !important;
+        border: none !important;
+    }
+
+    .dropdown-menu li {
+        margin: 2px !important;
+        border: 1px rgb(199, 194, 194) solid !important;
+        background-color: #ffffff !important;
+        box-shadow: 0px 0px .2px 0px gray;
+        border-radius: 5px;
+    }
+
+    #name {
+        border: 0px black solid;
+        width: 55px;
+        height: 41.7px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #name #name-txt {
+        width: 35px;
+        height: 35px;
+        border: 1px black solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+    }
+
+    .cart {
+        display: flex;
+        align-items: start;
+        justify-content: start;
+        border: 0px black solid;
+    }
+
+    .cart svg {
+        width: 29px;
+        height: 29px;
+        margin-top: -2px;
+    }
+
+    #cart-item {
+        border: 0px black solid;
+        width: 18px;
+        height: 18px;
+        margin-top: -15px;
+    }
+
+    #cart-menu {
+        background-color: #F5F5DC !important;
+        width: 380px !important;
+        height: 400px !important;
+        margin-left: -300px !important;
+
+    }
+
+    #dropdown-item {
+        height: 350px;
+        padding-bottom: 20px !important;
+        overflow-x: hidden !important;
+        overflow-y: scroll !important;
+
+
+    }
+
+    #cart-menu #total-price {
+        border: 0px rgb(255, 0, 0) solid;
+        width: 100%;
+        height: 50px;
+
+    }
+
+    #dropdown-item,
+    .logout {
+        /* background-color: #F5F5DC !important; */
+        background-color: #ffffff !important;
+        border: 0px rgb(255, 0, 0) solid;
+    }
+
+
+    #dropdown-item #cart-item-125964 {
+        border-bottom: 0px black solid;
+        margin-top: 1.5%;
+        width: 330px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #dropdown-item #cart-item-125964 #cart-item-125964-txt {
+        border-bottom: 0px black solid;
+        height: 100%;
+        width: 100%;
+        padding-left: 1.5%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    #dropdown-item #cart-item-125964 #cart-item-125964-button {
+        height: 40px;
+        width: 23%;
+        border: 0px black solid;
+    }
+
+    #dropdown-item #cart-item-125964 #cart-item-125964-button div {
+
+        font-size: 13px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #dropdown-item #cart-item-125964 #cart-item-125964-button div:focus {
+        outline: none;
+    }
+
+    #cart-item-125964-price {
+        border: 0px black solid;
+        margin-right: 5px;
+    }
+
+
+    .logout-option {
+        background-color: #F5F5DC !important;
+        width: 250px !important;
+        height: 50px !important;
+        margin-left: -200px !important;
+    }
+}

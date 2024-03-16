@@ -1,0 +1,281 @@
+@import url("nav.css");
+
+@media screen and (max-width: 1528px) {
+    * {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        height: 620px;
+        width: 100%;
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+
+    #main {
+        border: 1px transparent solid;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        margin-top: 10px;
+        overflow: hidden;
+    }
+
+    #main .kjgh {
+        width: 300px;
+        height: 100%;
+        border: 0px black solid;
+        overflow: hidden;
+        border: 0px rgb(255, 0, 0) solid;
+        border-top: none;
+        border-bottom: none;
+        border-left: none;
+        padding-top: 10px;
+        overflow-y: scroll;
+    }
+
+    .kjgh div {
+        width: 100%;
+        border-radius: 0px !important;
+        border: 0px black solid;
+        font-size: auto;
+        font-weight: bold;
+    }
+
+    #main #get {
+        height: 100%;
+        width: 1500px;
+        background-size: cover;
+        overflow-x: scroll;
+        /* background-image: url('../source/page_img/pexels-ella-olsson-1640773.jpg'); */
+        background-image: url('../source/page_img/coffee.jpg');
+
+        border: 0px black solid;
+    }
+
+    #otv {
+        color: rgb(0, 0, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 30px;
+    }
+
+    #otv #otv-1,
+    #otv-2 {
+        display: none;
+        transition: margin-left 2s ease-in-out;
+    }
+
+    #img-con {
+        height: 100%;
+        border: 0px black solid;
+        background-size: cover;
+        overflow-y: hidden;
+        /* background-color: aqua; */
+        /* background-image: url("../source/_SERVER/Coffee/Espresso.jpg"); */
+    }
+
+    #img-con #head5422 {
+        width: 100%;
+        height: 50px;
+        border: 0px black solid;
+        margin-top: 37%;
+    }
+
+    #img-con #head5422-indian-cusin {
+        margin-top: 32.5%;
+        border: 0px rgb(246, 255, 0) solid;
+        height: 80px;
+        /* Height Control */
+        /* overflow-x: scroll; */
+    }
+
+    #img-con #head5422-indian-cusin #main-bt-con-525 {
+        display: none;
+        /* border: 1px rgb(246, 255, 0) solid; */
+    }
+
+    #img-con #head5422 #main-bt-con-525 {
+        display: none;
+        /* border: 1px rgb(246, 255, 0) solid; */
+    }
+
+
+
+    #btn-conyt {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 25px;
+        overflow-x: scroll;
+    }
+
+    #btn-conyt-indian-cusin {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #btn-conyt #price,
+    #btn-conyt-indian-cusin #price {
+        display: flex;
+        width: 200px;
+        border: 0px rgb(255, 253, 253) solid;
+        /* color: #bfff00; */
+        color: #fff;
+        font-size: 50px;
+        padding-left: 2%;
+        margin-top: -10px;
+
+    }
+
+    #btn-conyt #add_to_cart,
+    #btn-conyt-indian-cusin #add_to_cart {
+        width: 180px;
+        border: 1px #fff solid;
+        background-color: rgba(0, 0, 0, 0.448);
+        box-shadow: 0px 0px 5px 0px rgb(255, 255, 255) inset;
+        /* background-color: rgba(0, 0, 0, 0.567); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border-radius: 50px;
+        color: #fff;
+    }
+
+    #img-con #head5422 #btn-conyt svg,
+    #btn-conyt-indian-cusin #svg {
+        width: 28.9px;
+        height: 28.9px;
+    }
+
+    #btn-conyt #about,
+    #btn-conyt-indian-cusin #about {
+        width: 150px;
+        border: 0px black solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: #fff;
+    }
+
+    #btn-conyt #about svg,
+    #btn-conyt-indian-cusin #about svg {
+        width: 19px;
+        height: 19px;
+    }
+
+
+
+    #main div:last-child #name-btn {
+        width: 100%;
+        height: 60px;
+        margin-top: 25px;
+        justify-content: center;
+        align-items: center;
+        border: 0px black solid;
+        overflow: scroll;
+        gap: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #main div:last-child #name-btn button {
+        width: 100%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        /* background-color: gold; */
+        background-color: #ffffff;
+        border: 0px black solid !important;
+        border-radius: 10px;
+    }
+
+    #filter-btn {
+        margin-top: 0px;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        border: 0px black solid;
+        /* overflow: scroll; */
+
+    }
+
+    #filter-btn div {
+        border-radius: 10px;
+        font-size: 14px;
+    }
+
+    #main div:last-child #indian-cusin-name-btn {
+        margin-top: 6px;
+        border: 0px rgb(255, 0, 0) solid;
+        gap: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        align-items: center;
+        justify-content: start;
+        overflow-x: scroll !important;
+        display: flex;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        text-wrap: nowrap;
+    }
+
+
+    #indian-cusin-name-btn button {
+        border-radius: 50px;
+        background-color: #fff;
+        height: 35px;
+        width: 250px;
+        font-size: 13px;
+    }
+
+    /*
+    #indian-cusin-name-btn button:focus {
+        border: 2px orange solid !important;
+        background-color: #f8f9fa !important;
+        box-shadow: none !important;
+    }
+*/
+    #alert {
+        width: 200px;
+        height: 50px;
+        border: 1px gold solid;
+        z-index: 20;
+        margin-top: -110px;
+        margin-left: 80%;
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        line-height: 50px;
+        display: none;
+    }
+
+    #alert-ondian {
+        display: none;
+    }
+
+    /*
+    #txt-1,
+    #txt-2 {
+        width: 700px;
+        height: 50px;
+        text-align: center;
+        font-size: 30px;
+        margin-top: -450px;
+        z-index: 10;
+        background-color: #00000061;
+        color: #fff;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        padding-left: 2%;
+        font-weight: bold;
+        display: none;
+    }
+    */
+
+
+}

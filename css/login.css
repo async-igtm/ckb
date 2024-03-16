@@ -1,0 +1,211 @@
+@media screen and (max-width: 1528px) {
+    body {
+        overflow: scroll;
+    }
+
+    #main-cont {
+        height: 740px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #container {
+        border: 0px black solid;
+        box-shadow: 1px 1px 6px 0px gray;
+        width: 70%;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px !important;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+        border: 0px black solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #con {
+        width: 80%;
+        height: 100%;
+        border: 0px black solid;
+
+        text-align: center;
+    }
+
+    #sjcg {
+        margin-top: 18%;
+    }
+
+
+    form div:first-child {
+        width: 100%;
+        height: auto;
+        border: 0px black solid;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    form div:last-child {
+        width: 100%;
+        height: auto;
+        margin-top: 10%;
+    }
+
+    form div:last-child .mb-3 {
+        width: 90%;
+    }
+
+    .form-check {
+        border: 0px black solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    input {
+        border-bottom: 1px black solid !important;
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        border-radius: 0px !important;
+    }
+
+    input:focus {
+        outline: none !important;
+        box-shadow: none !important;
+    }
+
+    [type="checkbox"] {
+        border: 1px black solid !important;
+    }
+
+    [type="password"] {
+
+        margin-top: 5% !important;
+    }
+
+    [type="submit"] {
+        width: 90%;
+        margin-top: 0%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .mb-3 a {
+        color: black !important;
+        margin-left: 72%;
+    }
+
+    form #lasta {
+        margin-top: 3% !important;
+    }
+
+    form #lasta span {
+        color: red !important;
+        font-size: large;
+    }
+
+    .icon {
+        border: 0px black solid;
+        margin-top: 4%;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .img div {
+        border: 0px black solid;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+        animation: bar 10s linear infinite;
+        box-shadow: 1px 1px 10px 0px gray;
+    }
+
+    .img div img {
+        width: 100%;
+        height: 100%;
+    }
+
+    #conn {
+        margin-top: 5%;
+        border: 0px black solid;
+    }
+
+    #exampleInputEmail1 {
+        border: 1px red solid !important;
+    }
+
+    #dkh {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 0px black solid;
+    }
+
+    #dkh div {
+        width: 40.5% !important;
+        margin-top: 0px;
+
+    }
+
+    #exampleInputPassword,
+    #exampleInputAddress {
+        width: 95%;
+    }
+
+    #exampleInputPassword {
+        margin-top: -0% !important;
+    }
+
+    #signup {
+        margin-top: 10%;
+    }
+
+    #gfchmm {
+        margin-top: 40%;
+        border: 0px black solid;
+
+    }
+
+    #gfchmm input {
+        width: 85%;
+    }
+
+    #gfchmm label {
+        font-size: 16px;
+    }
+
+    #gfchmm label:last-child {
+        margin-top: 2%;
+    }
+
+    #veryfybtn {
+        margin-top: 20px;
+    }
+
+    #exampleInputZip::placeholder {
+        font-size: 12px;
+
+    }
+
+    .alert {
+        margin-left: 81%;
+        width: 60%;
+        position: fixed;
+        z-index: 5;
+        margin-top: -60px;
+        display: none;
+    }
+}

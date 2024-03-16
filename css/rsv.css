@@ -1,0 +1,241 @@
+@import url('nav.css');
+
+@media screen and (max-width: 1528px) {
+
+
+    * {
+        outline: none;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #reserve-img {
+        width: 100%;
+        height: 749px;
+        border: 0px black solid;
+        background-color: antiquewhite;
+        background-image: url(../source/38.jpg);
+        background-size: cover;
+        background-position-y: -289px;
+        border: 0px #ff0000 solid;
+        margin: 0px;
+        padding: 0px;
+        position: relative;
+
+    }
+
+    .inseio {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, #fff 5%, transparent);
+        outline: none;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .inseio #rtybh {
+        color: black;
+        border: 1px red solid;
+        margin-top: 17%;
+        width: 20%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    #container {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #container #conhgj {
+        height: 90%;
+        width: 40%;
+        border: 0px red solid;
+        border-radius: 50px;
+        background-image: url(../source/39.jpg);
+        background-size: cover;
+        background-size: 100% 100%;
+        background-position-y: -90px;
+        margin-top: -2%;
+
+    }
+
+    #container #conhgj div {
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(to top, #ffffff 5%, transparent, transparent, transparent);
+    }
+
+
+    form {
+        padding-top: 12%;
+        padding-left: 10%;
+        height: 100%;
+        width: 40%;
+        border-right: 0px red solid;
+        /* background: linear-gradient(to top, #fff 50%, transparent); */
+    }
+
+    form div {
+        margin-top: 3.8%;
+    }
+
+    form div input,
+    div select,
+    div button {
+        width: 80% !important;
+    }
+
+    /*
+form #one,
+#two {
+    border: 0px black solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#one {
+    margin-top: -2% !important;
+}
+
+#one div {
+    width: 100%;
+    border: 0px black solid;
+    text-align: start;
+
+}
+
+#one div input {
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-align: center;
+}
+
+
+
+#two #gaust,
+#table {
+    width: 70%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    text-align: center;
+    border:0px black solid;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+
+#three,
+#four,
+#five,
+#six {
+    border: 0px black solid;
+    margin-top: 4%;
+    text-align: start;
+}
+
+#six {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 0px;
+    width: 50%;
+}
+
+#three input {
+    width: 100%;
+    margin-top: 5px;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+
+}
+
+#four textarea {
+    width: 100%;
+    height: 50px;
+    margin-top: 5px;
+    
+}
+
+#five label {
+    text-decoration: underline;
+}
+
+[type="checkbox"]{
+    border: 1px black solid;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five {
+    padding-left: 7%;
+}
+
+#two
+{
+    margin-top: 4%;
+}
+
+#three,
+#four {
+    border: 0px black solid;
+    padding-right: 5%;
+    text-align: start;
+}
+
+#two #gaust select,
+#table select
+{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+} 
+
+#two #gaust select
+
+{
+    width: 32%;
+}
+
+#two #table select
+
+{
+    width: 65%;
+}
+
+#five 
+{
+    text-align: center;
+}
+*/
+}
