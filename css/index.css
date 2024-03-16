@@ -7,7 +7,7 @@
     .swiper .swiper-wrapper .swiper-slide .one {
         height: 100%;
         width: 100%;
-        background-image: url("../source/page_img/food-4k.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/async-igtm/ckb@150031f618c6e8d240d7f7ad5a1715920d0652b0/sources/page_img/food-4k.jpg");
         background-size: cover;
         background-repeat: none;
 
@@ -45,7 +45,7 @@
         color: #fff;
         width: 100%;
         height: 100%;
-        background-image: url("../source/page_img/826921.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/async-igtm/ckb@150031f618c6e8d240d7f7ad5a1715920d0652b0/sources/page_img/826921.jpg");
         background-size: cover;
         padding-top: 20%;
     }
@@ -192,35 +192,6 @@
         font-weight: normal
     }
 
-
-    /* .swiper .swiper-wrapper .swiper-slide .six {
-        height: 100%;
-        width: 100%;
-        background-image: url("../source/6.jpg");
-        background-size: auto 100%;
-        background-repeat: none;
-        background-position-y: 100%;
-        display: flex;
-        justify-content: end;
-    }
-
-
-    .swiper .swiper-wrapper .swiper-slide .seven {
-        height: 100%;
-        width: 100%;
-        background-image: url("../source/7.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position-y: -300px;
-    } */
-
-
-
-
-
-
-
-
     #sec-two {
         width: 100%;
         height: 1000px;
@@ -229,7 +200,6 @@
     #location {
         height: 700px;
         margin-top: 100px;
-
     }
 
     #location #location-txt {
