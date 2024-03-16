@@ -1,12 +1,8 @@
-@import url('nav.css');
-@import url('swiper.css');
-@import url('footer.css');
 @media screen and (max-width: 1528px) {
     body {
         background-color: #F5F5DC !important;
         height: auto;
     }
-
 
     .swiper .swiper-wrapper .swiper-slide .one {
         height: 100%;
@@ -264,8 +260,6 @@
         height: 240px;
         border: 0px black solid;
     }
-
-
 
     .-name {
         font-size: 30px;
