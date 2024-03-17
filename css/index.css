@@ -80,7 +80,7 @@
     .swiper .swiper-wrapper .swiper-slide .three {
         height: 100%;
         width: 100%;
-        background-image: url("../source/page_img/Pizza.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/async-igtm/ckb@15675bd7feb934e59751fca762bc9b266dc91481/sources/page_img/Pizza.jpg");
         background-size: cover;
         background-repeat: none;
         color: #fff;
@@ -117,7 +117,7 @@
     .swiper .swiper-wrapper .swiper-slide .four {
         height: 100%;
         width: 100%;
-        background-image: url("../source/page_img/wp3151338-junk-food-wallpapers.jpg");
+        background-image: url("https://cdn.jsdelivr.net/gh/async-igtm/ckb@15675bd7feb934e59751fca762bc9b266dc91481/sources/page_img/wp3151338-junk-food-wallpapers.jpg");
         background-size: cover;
         background-repeat: none;
         background-position-y: -80px;
@@ -156,7 +156,7 @@
         height: 100%;
         width: 100%;
         background: linear-gradient(to right, black 30%, transparent 60%);
-        background-image: url("../source/page_img/Lucknowi-Biryani.png");
+        background-image: url("https://cdn.jsdelivr.net/gh/async-igtm/ckb@15675bd7feb934e59751fca762bc9b266dc91481/sources/page_img/Lucknowi-Biryani.png");
         background-size: cover;
         background-repeat: none;
         background-position-y: -100px;
