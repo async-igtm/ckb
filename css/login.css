@@ -1,4 +1,4 @@
-@media screen and (max-width: 1528px) {
+/* @media screen and (max-width: 1528px) { */
     body {
         overflow: scroll;
     }
@@ -208,4 +208,4 @@
         margin-top: -60px;
         display: none;
     }
-}
+/* } */
