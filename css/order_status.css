@@ -1,0 +1,223 @@
+body {
+    overflow-y: scroll;
+}
+
+section {
+    border: 0px black solid;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#section {
+    height: 100%;
+}
+
+section div {
+    border: 0px black solid;
+}
+
+.sucess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 100%;
+}
+
+#order-sucess {
+    display: flex;
+    width: 8%;
+
+    text-align: center;
+    border: 0px black solid;
+}
+
+#order-status {
+    border: 0px black solid;
+}
+
+#order-sucess div:first-child {
+    width: 100%;
+    line-height: 48px;
+}
+
+#order-sucess div:last-child {
+    border: 0px black solid;
+    height: 100%;
+    line-height: 48px;
+}
+
+
+.sucess svg {
+    width: 100%;
+    height: 100%;
+}
+
+#track-id {
+    border: 0px rgb(255, 0, 0) solid;
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 50px;
+
+}
+
+#order-id {
+    border: 0px black solid;
+    width: 100%;
+    line-height: 48px;
+}
+
+[data-toggle="collapse"] {
+    /* border: 1px black solid; */
+    box-shadow: 0px 0px 2px 0px gray;
+    border-radius: 10px;
+    padding-bottom: .22%;
+
+}
+
+#collapseExample .card {
+    border-radius: 10px;
+    border-left: none !important;
+    border-bottom: none !important;
+    border-right: none !important;
+}
+
+
+
+
+
+
+/* Main Code */
+
+#progress {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.order-tracking {
+    text-align: center;
+    width: 33.33%;
+    /* border: 1px red solid; */
+    position: relative;
+    display: block;
+}
+
+/* Color of In-Complete yellow Circle */
+.is-complete {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 0px solid #AFAFAF;
+    background-color: #f7be16;
+    margin: 0 auto;
+    transition: background 0.25s linear;
+    -webkit-transition: background 0.25s linear;
+    z-index: 2;
+}
+
+.is-complete:after {
+    display: block;
+    position: absolute;
+    content: '';
+    height: 14px;
+    width: 7px;
+    top: -2px;
+    bottom: 0;
+    left: 5px;
+    margin: auto 0;
+    border: 0px solid #AFAFAF;
+    border-width: 0px 2px 2px 0;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+/* Color of Complete green Circle */
+.order-tracking.completed .is-complete {
+    border-color: #27aa80;
+    border-width: 0px;
+    background-color: #27aa80;
+
+}
+
+.order-tracking.completed .is-complete:after {
+    border-color: #fff;
+    border-width: 0px 3px 3px 0;
+    width: 7px;
+    left: 11px;
+    opacity: 1;
+}
+
+.order-tracking p {
+    color: #A4A4A4;
+    font-size: 16px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+.order-tracking p span {
+    font-size: 14px;
+}
+
+.order-tracking.completed p {
+    color: #000;
+}
+
+.order-tracking::before {
+    content: '';
+    display: block;
+    height: 3px;
+    width: calc(100% - 40px);
+    background-color: #f7be16;
+    background-color: #fff;
+    top: 13px;
+    position: absolute;
+    left: calc(-50% + 20px);
+    z-index: 0;
+}
+
+.order-tracking:first-child:before {
+    display: none;
+}
+
+.order-tracking.completed:before {
+    background-color: #27aa80;
+    /* background-color: #000; */
+}
+
+
+#Order-Details {
+    border: 0px black solid;
+    padding-left: 3%;
+}
+
+.class-container
+{
+    width: 100%;
+    height: 600px;
+    border: 0px black solid;
+    text-align: center;
+   padding-top: 300px;
+}
+
+.class-container button
+{
+    width: 25%;
+    height: 50px;
+}
+
+.class-container div 
+{
+width: 100%;
+font-size: 20px;
+margin-top: 5px;
+}
