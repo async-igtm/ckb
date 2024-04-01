@@ -13,5 +13,5 @@ mout = (div_id, text_id) => {
 }
 
 logout = () => {
-    window.location = "dta/Links/logout/destroy.php";
+    window.location = "http://continentalknb.infinityfreeapp.com/index.php";
 }
